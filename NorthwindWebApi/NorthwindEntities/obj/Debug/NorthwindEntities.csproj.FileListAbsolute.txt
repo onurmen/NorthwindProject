@@ -1,0 +1,6 @@
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindEntities\bin\Debug\NorthwindEntities.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindEntities\bin\Debug\NorthwindEntities.pdb
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindEntities\obj\Debug\NorthwindEntities.csproj.AssemblyReference.cache
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindEntities\obj\Debug\NorthwindEntities.csproj.CoreCompileInputs.cache
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindEntities\obj\Debug\NorthwindEntities.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindEntities\obj\Debug\NorthwindEntities.pdb

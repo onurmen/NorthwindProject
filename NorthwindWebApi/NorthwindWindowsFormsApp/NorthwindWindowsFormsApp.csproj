@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C3A9BBF-0905-4D9F-A822-9FA1A78CABD0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NorthwindWindowsFormsApp</RootNamespace>
+    <AssemblyName>NorthwindWindowsFormsApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoriesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoriesMenu.Designer.cs">
+      <DependentUpon>CategoriesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomersMenu.Designer.cs">
+      <DependentUpon>CustomersMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployessMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployessMenu.Designer.cs">
+      <DependentUpon>EmployessMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrdersMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrdersMenu.Designer.cs">
+      <DependentUpon>OrdersMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductsMenu.Designer.cs">
+      <DependentUpon>ProductsMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShippersMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShippersMenu.Designer.cs">
+      <DependentUpon>ShippersMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuppliersMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppliersMenu.Designer.cs">
+      <DependentUpon>SuppliersMenu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CategoriesMenu.resx">
+      <DependentUpon>CategoriesMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomersMenu.resx">
+      <DependentUpon>CustomersMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployessMenu.resx">
+      <DependentUpon>EmployessMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdersMenu.resx">
+      <DependentUpon>OrdersMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductsMenu.resx">
+      <DependentUpon>ProductsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ShippersMenu.resx">
+      <DependentUpon>ShippersMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuppliersMenu.resx">
+      <DependentUpon>SuppliersMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NorthwindDAL\NorthwindDAL.csproj">
+      <Project>{bdc1a0e5-4acc-453f-a8d3-ce25fc6b9c9c}</Project>
+      <Name>NorthwindDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NorthwindEntities\NorthwindEntities.csproj">
+      <Project>{ea91a0bc-a84f-4f66-a3a8-8577b775e909}</Project>
+      <Name>NorthwindEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,11 @@
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\bin\Debug\LogLibrary.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\bin\Debug\LogLibrary.pdb
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\bin\Debug\NorthwindEntities.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\bin\Debug\System.Data.SqlClient.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\bin\Debug\NorthwindEntities.pdb
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\bin\Debug\System.Data.SqlClient.xml
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\obj\Debug\LogLibrary.csproj.AssemblyReference.cache
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\obj\Debug\LogLibrary.csproj.CoreCompileInputs.cache
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\obj\Debug\LogLibrary.csproj.CopyComplete
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\obj\Debug\LogLibrary.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\LogLibrary\obj\Debug\LogLibrary.pdb

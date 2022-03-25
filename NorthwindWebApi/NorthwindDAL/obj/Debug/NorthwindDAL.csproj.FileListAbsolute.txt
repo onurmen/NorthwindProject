@@ -1,0 +1,15 @@
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\NorthwindDAL.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\NorthwindDAL.pdb
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\NorthwindEntities.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\NorthwindEntities.pdb
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\obj\Debug\NorthwindDAL.csproj.AssemblyReference.cache
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\obj\Debug\NorthwindDAL.csproj.CoreCompileInputs.cache
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\obj\Debug\NorthwindDAL.csproj.CopyComplete
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\obj\Debug\NorthwindDAL.dll
+C:\Users\programmer\source\repos\NorthwindWebApi\NorthwindDAL\obj\Debug\NorthwindDAL.pdb
